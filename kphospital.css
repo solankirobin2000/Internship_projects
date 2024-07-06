@@ -1,0 +1,94 @@
+@page {
+    size: A4;
+    margin: 0;
+
+}
+
+body {
+    width: 794px;
+    height: 1123px;
+    position: relative;
+    margin: 0;
+    
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.logo {
+    float: right;
+   
+
+}
+.services{
+    border-bottom: 3px solid rgb(43, 43, 104);
+    width: 100%;
+    padding-bottom: 3px;
+    display: flex;
+    padding-left: 1em;
+    justify-content: space-between;
+    }
+    .services li{
+        list-style: square;
+    color: red;
+    font-weight: bold;
+    font-family: "Roboto",sans-serif;
+        }
+        
+        .services span{
+    color: red;
+    font-weight: bold;
+    
+    
+}
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    
+    
+}
+.contact{
+    width: 397px;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+   
+}
+.address{
+   
+    width: 397px;
+    text-align: center;
+    border-left: 2px solid black;
+    height: 60px;
+    font-family: "Roboto",sans-serif;
+   
+}
+.address p{
+    padding-left: 3px;
+}
+.address span,.contact span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom : .5em;
+    display: inline-block;
+}
+
+.contact-info p{
+    font-size: 16px;
+    margin-top: -0.5px;
+}
+.purpose{
+    color: red;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-size: smaller;
+    font-weight: 800;
+    margin-top: .5em;
+  
+}
+.purpose p{
+    margin-top: 1px;
+}
+
+
